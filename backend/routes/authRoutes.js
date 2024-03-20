@@ -8,6 +8,7 @@ const { test, regiserUser, loginUser } = require('../controllers/authController'
 
 
 //middleware
+
 router.use(
     cors({
         credentials: true,
